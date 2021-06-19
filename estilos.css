@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0 ;
+}
+h1{ 
+    font-size:40px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-size:25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+ section, footer, aside, nav, article, hgroup{
+    display: block;
+    
+}
+body{ 
+    text-align: center;
+    background-image: url(musalogo.png);
+    
+}
+.agrupar{
+    width:960px;
+    border: 1px solid black;
+    margin:15px auto;
+    background: whitesmoke;
+    
+} 
+.cabecera{
+    background: #4cd137;
+    border:5px solid #2f3640;
+    padding:20px;
+}
+.cabecera h1{
+    text-align: left;
+}
+.menu{
+    background:#e1b12c;
+    padding:5px 15px;
+    text-align: left;
+    
+}
+.menu li{
+    list-style: none;
+    padding:5px;
+    font: bold 20px verdana;
+    display: inline-block;
+    text-align: justify;
+
+}
+.seccion{ 
+    margin:20px;
+    width: 60%;
+    float: left;
+}
+article{
+    background: #7bed9f;
+    border: 2px solid #2f3542;
+    padding: 35px;
+    margin-bottom: 20px;
+}
+time{
+    color: #999;
+}
+article img{
+    display:block ;
+    margin: 25px auto;
+}
+article footer{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 20px;
+}
+article address{
+    text-align: right;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.columna{
+    margin:20px 0px; 
+    width: 30%;
+    float: right;
+    
+}
+.columna blockquote{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 35px;
+    background: #9c88ff;
+    margin-bottom: 20px;
+}
+.columna blockquote img{
+    display: block;
+    margin: 10px auto;
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: #2f3542;
+    color: #ffffff
+}
